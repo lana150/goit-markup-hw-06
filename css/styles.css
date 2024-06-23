@@ -1053,7 +1053,8 @@ svg {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 72px 24px;
-    padding-left: 108px;
+    /*padding-left: 108px;*/
+    width: 584px;
   }
 
   .footer-form {
