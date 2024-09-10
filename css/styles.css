@@ -170,7 +170,7 @@ h3 {
   gap: 40px;
 }
 
-.mob-soc-item {}
+
 
 .mob-soc-link {
   display: flex;
@@ -184,7 +184,6 @@ h3 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-soc-icon {}
 
 /*Section-1-hero */
 
@@ -1054,12 +1053,14 @@ svg {
     align-items: baseline;
     gap: 72px 24px;
     /*padding-left: 108px;*/
-    width: 584px;
+    /*width: 584px;*/
+    justify-content: center;
   }
 
   .footer-form {
     flex-direction: row;
   }
+
 
   .footer-logo {
     text-align: left;
@@ -1128,6 +1129,11 @@ svg {
     }
   }
 
+  .container {
+    max-width: 1158px;
+
+  }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -1181,13 +1187,16 @@ svg {
 
   .footer-container {
     gap: 0;
+
   }
 
   .footer-content {
-    margin-right: 120px;
+    margin-right: 100px;
+
   }
 
   .footer-forms {
-    margin-left: auto;
+    margin-left: 80px;
+
   }
 }
